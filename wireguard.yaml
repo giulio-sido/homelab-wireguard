@@ -10,10 +10,10 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Rome
-      - SERVERURL=auto #optional
+      - SERVERURL=sidoretti.com #optional
       - SERVERPORT=51820 #optional
       - PEERS=mackde #optional
-      - PEERDNS=auto #optional
+      - PEERDNS=192.168.1.56 #optional
       - INTERNAL_SUBNET=10.13.37.0 #optional
       - ALLOWEDIPS=0.0.0.0/0 #optional
       - LOG_CONFS=true #optional
